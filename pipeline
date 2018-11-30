@@ -1,0 +1,18 @@
+
+pipeline{
+	agent any
+	stages{
+		stage('pull-the-code') {
+			steps{
+				echo 'hello world'
+			}
+		}
+		stage('build') {
+			steps{
+				sh 'whoami'
+				sh 'pwd'
+				sh 'ls'
+			}
+		}
+	}
+}
