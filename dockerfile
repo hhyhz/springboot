@@ -1,5 +1,5 @@
 #基础镜像为官方centos7
-FROM centos:7
+FROM mymaven
 MAINTAINER salo
 
 ARG PROJECT_NAME
