@@ -6,7 +6,7 @@ sleepTime1=5
 sleepTime2=6
 
 REPORT_TIME=`date '+%Y%m%d%H%M%S'`
-jmeter_basedir=/usr/local/jmeter/apache-jmeter-4.0
+jmeter_basedir=/usr/local/jmeter
 JMETEREXT=$jmeter_basedir/lib/ext
 report_icon=$jmeter_basedir/extras/collapse.png
 
