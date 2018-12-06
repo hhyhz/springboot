@@ -15,6 +15,7 @@ basedir=$WORKSPACE/jmeterTestReports/
 #latest=$basedir/report/$JOB_NAME/latestResult/
 #mkdir -p $report
 #mkdir -p $latest
+rm -rf $basedir
 mkdir -p $basedir
 
 echo "starting..."
