@@ -12,7 +12,7 @@ pipeline{
 				sh 'whoami'
 				sh 'pwd'
 				sh 'ls'
-				echo 'make some changes to test webhook 555'
+				echo 'make some changes to test webhook 666'
 			}
 		}
 	}
